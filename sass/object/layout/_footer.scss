@@ -1,0 +1,74 @@
+.footer {
+    .d-none-pc {
+        display: none;
+    }
+    .snslist {
+        height: 50px;
+        margin-top: 82px;
+        margin-bottom: 80px;
+        text-align: center;
+        i, img {
+            vertical-align: bottom !important;
+        }
+        .sns__list {
+            width: 50px;
+            height: 50px;
+            margin-right: 70px;
+            .fa-4x {
+                font-size: 50px;
+            }
+            .fa-facebook {
+                color: #1877f2;
+            }
+        }
+    }
+    .footer__box {
+        background-color: rgb(106, 199, 250);
+        padding-bottom: 48px;
+        .footer_inner {
+            width: 1080px;
+            margin: 0 auto;
+            p.white {
+                color: #fff;
+                text-align: center;
+            }
+            #footer {
+                color: #fff;
+                display: flex;
+                padding-top: 60px;
+                a {
+                    color: #fff;
+                    position: relative;
+                    opacity: 0.7;
+                    transition: all .3s;
+                }
+                ul {
+                    margin-right: 35px;
+                    list-style: none;
+                    li {
+                        width: 143px;
+                        font-size: 13px;
+                        line-height: 23px;
+                        margin-bottom: 21px;
+                        &:first-child {
+                            font-weight: 700;
+                            opacity: 1;
+                        }
+                    }
+                }
+                .footer__sub {
+                    .footer__btn {
+                        width: 150px;
+                        height: 30px;
+                        line-height: 30px;
+                        border: 1px solid #FFF;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 13px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

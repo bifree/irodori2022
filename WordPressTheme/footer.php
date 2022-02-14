@@ -1,7 +1,7 @@
-<footer>
-	<?php get_template_part('snslist'); ?>
+<footer class="footer">
+	<?php get_template_part('template/snslist'); ?>
 		<div class="footer__box">
-			<div class="footer">
+			<div class="footer_inner">
 				<div id="footer" class="footer__main">
 					<ul>
 						<li>ABOUT</li>

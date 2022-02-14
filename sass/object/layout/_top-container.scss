@@ -1,0 +1,43 @@
+.top-container {
+    h1 {
+        text-align: center;
+    }
+    h1.important {
+        font: normal bold 45px/77px YuGothic;
+        margin-bottom: 52px;
+    }
+    .catchcopy__p {
+        width: 800px;
+        text-align: initial;
+        margin: 50px auto 0;
+        font-size: 20px;
+        line-height: 38px;
+    }
+    .center {
+        display: flex;
+        justify-content: center;
+        .btn__about {
+            margin-top: 70px;
+            background-color: #555;
+            width: 300px;
+            height: 50px;
+            line-height: 50px;
+            display: inline-block;
+            box-sizing: border-box;
+            border: 2px solid #555;
+            border-radius: 25px;
+            cursor: pointer;
+            text-align: center;
+            color: #FFF !important;
+            text-decoration: none;
+            align-self: center;
+            transition: all 0.3 ease;
+            .span__blue {
+                color: rgb(106, 199, 250);
+                display: inline-block;
+                margin-right: -80px;
+                padding-left: 50px;
+            }
+        }
+    }
+}

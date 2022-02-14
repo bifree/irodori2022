@@ -1,0 +1,17 @@
+.news {
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    h1.important {
+        font: normal bold 45px/77px YuGothic;
+    }
+    .newslist {
+        margin-bottom: 160px;
+        border: 1px #333 solid;
+        width: 1080px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

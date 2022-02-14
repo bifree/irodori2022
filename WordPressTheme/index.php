@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php get_template_part('overlay'); ?>
 
-	<main>
+	<main class="main">
 		<div class="main_top">
 			<div class="accordion top--img" id="slide">
 				<ul>
@@ -18,7 +18,7 @@
 				</ul>
 			</div><!--/.viewer-->
 		</div>
-		<div class="container">
+		<div class="top-container">
 			<h1 class="important">心踊る体験を。</h1>
 			<p class="catchcopy__p">
 			性別で決められた役割ではなく、自分の思いのまま心が踊るような体験をして、彩り豊かな人生を送ってほしい。そういう願いを込めて活動しています。<br>
@@ -36,7 +36,7 @@
 				<h1>SERVICE</h1>
 			<div class="ballet">
 				<div class="service__img__top">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/top_ballet.png" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top_ballet.png" alt="">
 				</div>
 				<div class="service__text">
 					<h2 class="h2_yuminscho">バレエレッスン</h2>
@@ -50,7 +50,7 @@
 			<hr class="sp_none">
 			<div class="shopping">
 				<div class="service__img__top">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/top_shopping.jpg" alt="">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/top_shopping.jpg" alt="">
 				</div>
 				<div class="service__text">
 					<h2 class="h2_yuminscho">レディースファッション<br>買い物同行</h2>
@@ -100,7 +100,7 @@
 					<?php endwhile; ?> -->
 				</table>
 			</div>
-			<?php get_template_part('contact_btn'); ?>
+			<?php get_template_part('template/contact_btn'); ?>
 		</div>
 	</main>
 	<?php get_footer(); ?>
