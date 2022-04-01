@@ -16,14 +16,36 @@
 <header id="header">
 	<div class="go-top"><i class="fas fa-chevron-up"></i></div>
 	<div class="container header">
-		<div class="logo">
-			<a href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo"></a>
+		<div class="header--logo">
+			<a href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo"></a>
 		</div>
 		<div class="sp-menu">
 			<span class="material-icons" id="open">menu</span>
 		</div>
-		<div class="top--menu">
-			<?php get_template_part('global_nav'); ?>
+		<div class="header--menu">
+			<nav>
+				<ul>
+					<li><a href="<?php echo esc_url( home_url('/') ); ?>">HOME</a></li>
+					<li><a href="<?php echo esc_url( home_url('/about') ); ?>">ABOUT</a></li>
+					<li class="sub--menu"><a href="<?php echo esc_url( home_url('/service') ); ?>">SERVICE</a>
+						<ul class="submenu">
+							<li><a href="https://www.street-academy.com/myclass/90108?conversion_name=direct_message&tracking_code=f3eda923d0b277d554ec1a389e12c0f7">▶︎ バレエレッスン</a></li>
+							<li><a href="<?php echo esc_url( home_url('/ladies-shopping') ); ?>" class="fashion">▶︎ レディースファッション買い物同行</a></li>
+							<li><a href="<?php echo esc_url( home_url('/category/event_info') ); ?>">▶︎ イベント開催</a></li>
+						</ul>
+					</li>
+					<li class="sub--menu"><a href="">EVENT</a>
+						<ul class="submenu">
+							<li><a href="<?php echo esc_url( home_url('/category/news') ); ?>">▶︎ お知らせ</a></li>
+							<li><a href="<?php echo esc_url( home_url('/category/event_info') ); ?>">▶︎ イベント情報</a></li>
+							<li><a href="<?php echo esc_url( home_url('/category/activity') ); ?>">▶︎ 活動報告</a></li>
+						</ul>
+					</li>
+					<a href="http://localhost:8888/irodori/contact/"><div class="contact">
+					CONTACT<i class="fas fa-paper-plane"></i>
+					</div></a>
+				</ul>
+			</nav>
 		</div>
 	</div>
 

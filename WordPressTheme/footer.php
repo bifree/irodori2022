@@ -57,10 +57,10 @@ echo get_page_link( 30 );
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/main.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/main__sp.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/sp-menu.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/accordion.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/aseets/js/main.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/aseets/js/main__sp.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/aseets/js/sp-menu.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/aseets/js/accordion.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/hover.js"></script>
 	<?php wp_footer(); ?>
 </body>

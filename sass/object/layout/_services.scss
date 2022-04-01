@@ -36,6 +36,11 @@
                 text-align: center;
                 text-decoration: none;
                 transition: all 0.3s ease;
+                &:hover {
+                    background-color: #6ac7fa;
+                    border: 2px solid #6ac7fa;
+                    color: #fff;
+                }
                 .span__blue {
                     color: rgb(106, 199, 250);
                     display: inline-block;

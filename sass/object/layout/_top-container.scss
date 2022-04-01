@@ -32,6 +32,13 @@
             text-decoration: none;
             align-self: center;
             transition: all 0.3 ease;
+            &:hover {
+                background-color: rgb(144, 144, 144);
+                border: 2px solid rgb(144, 144, 144);
+                display: inline-block;
+                border-radius: 32px;
+                cursor: pointer;
+            }
             .span__blue {
                 color: rgb(106, 199, 250);
                 display: inline-block;
@@ -40,4 +47,9 @@
             }
         }
     }
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }

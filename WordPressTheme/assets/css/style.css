@@ -121,6 +121,7 @@ q:after {
 
 a {
 	background: transparent;
+	color: #333;
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
@@ -269,6 +270,97 @@ select {
 	width: 150px;
 }
 
+.header {
+	display: flex;
+}
+
+.header .sp-menu {
+	display: none;
+}
+
+.header--logo {
+	margin-right: auto;
+	width: 200px;
+}
+
+.header--logo img {
+	width: 100%;
+}
+
+.header--menu {
+	width: 70%;
+}
+
+.header--menu nav ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.header--menu nav ul li a {
+	color: #333;
+	line-height: 100px;
+}
+
+.header--menu nav ul li.sub--menu {
+	position: relative;
+}
+
+.header--menu nav ul li.sub--menu ul.submenu {
+	display: block;
+	display: none;
+	left: -100px;
+	overflow: hidden;
+	position: absolute;
+	top: 65px;
+	z-index: 1;
+}
+
+.header--menu nav ul li.sub--menu ul.submenu li {
+	background-color: #f7f7f7;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 200px;
+}
+
+.header--menu nav ul li.sub--menu ul.submenu li:hover {
+	background-color: #fff;
+	font-weight: bold;
+}
+
+.header--menu nav ul li.sub--menu ul.submenu li a {
+	color: #444;
+	display: block;
+	font-size: 13px;
+	height: 100%;
+	line-height: 40px;
+	padding: auto 0 !important;
+}
+
+.header--menu nav ul li.sub--menu ul.submenu li a.fashion {
+	line-height: 20px;
+}
+
+.header--menu nav ul li.sub--menu:hover ul.submenu {
+	display: block;
+}
+
+.go-top {
+	background-color: #6ac7fa;
+	border-radius: 50%;
+	bottom: 20px;
+	color: #fff;
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	position: fixed;
+	right: 10%;
+	text-align: center;
+	width: 60px;
+}
+
 .main .main_top {
 	margin: 0 auto 100px;
 	position: relative;
@@ -375,6 +467,14 @@ select {
 	text-decoration: none;
 	transition: all 0.3s ease;
 	width: 300px;
+}
+
+.services .serviceslist .ballet .btn__service:hover,
+.services .serviceslist .shopping .btn__service:hover,
+.services .serviceslist .events .btn__service:hover {
+	background-color: #6ac7fa;
+	border: 2px solid #6ac7fa;
+	color: #fff;
 }
 
 .services .serviceslist .ballet .btn__service .span__blue,
@@ -489,11 +589,24 @@ select {
 	width: 300px;
 }
 
+.top-container .center .btn__about:hover {
+	background-color: #909090;
+	border: 2px solid #909090;
+	border-radius: 32px;
+	cursor: pointer;
+	display: inline-block;
+}
+
 .top-container .center .btn__about .span__blue {
 	color: #6ac7fa;
 	display: inline-block;
 	margin-right: -80px;
 	padding-left: 50px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
 }
 
 .btn__contact {

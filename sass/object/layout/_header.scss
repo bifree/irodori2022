@@ -1,0 +1,83 @@
+.header {
+    display: flex;
+    .sp-menu {
+        display: none;
+    }
+    &--logo {
+        width: 200px;
+        margin-right: auto;
+        img {
+            width: 100%;
+        }
+    }
+    &--menu {
+        width: 70%;
+        nav {
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                li {
+                    a {
+                        line-height: 100px;
+                        color: #333;
+                    }
+                }
+                li.sub--menu {
+                    position: relative;
+                    ul.submenu {
+                        display: block;
+                        position: absolute;
+                        top: 65px;
+                        overflow: hidden;
+                        left: -100px;
+                        display: none;
+                        z-index: 1;
+                        li {
+                            display: block;
+                            width: 200px;
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            background-color: #f7f7f7;
+                            &:hover {
+                                font-weight: bold;
+                                background-color: #fff;
+                            } 
+                            a {
+                                color: #444;
+                                font-size: 13px;
+                                height: 100%;
+                                line-height: 40px;
+                                display: block;
+                                padding: auto 0 !important;
+                            }
+                            a.fashion {
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                    &:hover {
+                        ul.submenu {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.go-top {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    line-height: 60px;
+    text-align: center;
+    right: 10%;
+    color: #fff;
+    background-color: rgb(106, 199, 250);
+    border-radius: 50%;
+}
